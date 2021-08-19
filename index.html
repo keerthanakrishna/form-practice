@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-success navbar navbar-expand-sm bg-light justify-content-center">
+   
+  <a href="#logo"><img src="i1.jpg" width="40%" ></a>
+
+ 
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <h2><a class="nav-link" href="#">Home</a>
+    </li>
+    </li>
+    <li class="nav-item">
+      <h2><a class="nav-link" href="#">About</a></h2>
+    </li>
+    <li class="nav-item dropdown">
+      <h2><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Contact Us
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Email</a>
+          <a class="dropdown-item" href="#">Phone</a>
+          <a class="dropdown-item" href="#">Address</a>
+         
+      </h2>
+      </div>
+    </li>
+  </ul>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-primary" type="submit">Search</button>
+  </form>
+</nav>
+<br>
+<div style="background: rgb(2, 126, 33);color: rgb(250, 250, 250);"><br><h1 style="text-align: center;">Course Registration Form</h1>
+  <br></div><br>
+<section style="background-color: cadetblue;" class="vh-100 gradient-custom">
+  <div class="container ">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-12 col-xl-12">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-15 p-md-25">
+           
+            <form style="background-color: rgb(229, 186, 226);">
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" id="firstName" class="form-control form-control-lg" />
+                    <label class="form-label" for="firstName">First Name</label>
+                  </div>
+
+                </div>
+                
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" id="lastName" class="form-control form-control-lg" />
+                    <label class="form-label" for="lastName">Last Name</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                  <div class="form-outline datepicker w-100">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      id="birthdayDate"
+                    />
+                    <label for="birthdayDate" class="form-label">Birthday</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <h6 class="mb-2 pb-1">Gender: </h6>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="femaleGender"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="femaleGender">Female</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="maleGender"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="maleGender">Male</label>
+                  </div>
+
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="otherGender"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="otherGender">Other</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4 pb-2">
+
+                  <div class="form-outline">
+                    <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                    <label class="form-label" for="emailAddress">Email</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4 pb-2">
+
+                  <div class="form-outline">
+                    <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                    <label class="form-label" for="phoneNumber">Phone Number</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+
+                  <select class="select form-control-lg">
+                    <option value="1" disabled>-Course-</option>
+                    <option value="2">-Select-</option>
+                    <option value="3">Python for data science</option>
+                    <option value="4">Data science for engineers</option>
+                    <option value="4">Data Base Management System</option>
+                    <option value="4">Web Technology</option>
+                    <option value="4">Java Applications</option>
+                  </select>
+                  <label class="form-label select-label">Courses</label>
+
+                </div>
+              </div><br><br>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" id="firstName" class="form-control form-control-lg" />
+                    <label class="form-label" for="firstName">Department</label>
+                  </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+
+                    <div class="form-outline">
+                      <input type="text" id="lastName" class="form-control form-control-lg" />
+                      <label class="form-label" for="lastName">Year</label>
+                    </div>
+  
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+    
+                      <div class="form-outline">
+                        <input type="text" id="firstName" class="form-control form-control-lg" />
+                        <label class="form-label" for="firstName">Roll Number</label>
+                      </div>
+    
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+    
+                      <div class="form-outline">
+                        <input type="text" id="lastName" class="form-control form-control-lg" />
+                        <label class="form-label" for="lastName">Section</label>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+              <div class="mt-4 pt-2">
+                <input class="btn btn-primary btn-lg" type="submit" value="Submit" /><br>
+              </div>
+             
+
+            </form>
+          
+          </div>
+        
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+
+</section>
+</body>
+</html>
